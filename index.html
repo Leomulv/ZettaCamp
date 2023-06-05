@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+
+    <title>HTML CSS</title>
+  </head>
+  <body>
+    <!-- profile -->
+    <div class="container-fluid">
+        <div class="comment-users">
+          <div class="comment-profile">
+            <img src="f.jpg" alt="">
+          </div>
+            <div class="comment-content">
+             <div class="comment-header">
+              <span class="users">Maulvi Muhammad</span>
+              <span class="timeline">Posted on your timeline</span>
+              </div>
+              <span class="comment-date">32 minutes ago</span>
+             </div>
+            </div>
+            <div class="dropdown ms-auto">
+                <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="3.png" alt="Tombol Dropdown" width="30" height="30">
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Edit</a></li>
+                  <li><a class="dropdown-item" href="#">Share</a></li>
+                  <li><a class="dropdown-item" href="#">Delete</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- end profile -->
+    
+    <!-- caption -->
+    <div class="container-fluid">
+    <div class="caption">
+    <p>Every step I take brings me closer to the summit, where I find solace and a sense of accomplishment.</p>
+    </div>
+    </div>
+    <!-- end caption -->
+
+    <!-- image -->
+    <div class="container-fluid">
+        <img class="image" src="nature-landscape-mountains-lake-wallpaper-preview.jpg" alt="">
+    </div>
+    <!-- end image -->
+
+<!-- like -->
+<div class="container-fluid">
+    <button class="like-button">
+     <span class="like-icon"><img src="love.png" alt="" width="20" height="20"></span>Like
+     <span class="like-count">(5)</span>
+    </button>
+    <button class="share-button">
+        <span class="share-icon"><img src="share.png" alt="" width="20" height="20"></span>Share
+        <span class="like-count">(21)</span>
+      </button>
+</div>
+<!-- end like -->
+
+<!-- form comment -->
+<div class="Container-fluid">
+    <div class="comment-count">
+    <span>1 Comment</span>
+    <img src="dropdown-1.png" alt="" width="30" height="30">
+<div class="comment-container-fluid">
+    <div class="comment">
+      <div class="comment-profile">
+        <img src="f.jpg" alt="profile">
+      </div>
+      <div class="comment-content">
+        <div class="comment-header">
+          <span class="comment-author">Maulvi Muhammad</span>
+          <span class="comment-date">June 6, 2023</span>
+        </div>
+        <p class="comment-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum necessitatibus minima ab debitis praesentium consequuntur voluptatum aliquam eum quos doloremque voluptatem, quas aspernatur porro? Hic quasi id omnis laborum eius.</p>
+        <button class="reply-button">Reply</button>
+        <button class="report-button"><img src="report.png" alt="" width="30" height="30"></button>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+  <div class="comment-profile">
+    <img src="f.jpg" alt="profile">
+    </div>
+    <div class="container">
+      <textarea class="form-control" id="comment-input" placeholder="Add a comment.."></textarea>
+    <div class="btn-comment">
+    <button type="submit" class="btn btn-primary">Post Comment</button>
+    </div>  
+  </form>
+</div>
+</div>
+<!-- end comment -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

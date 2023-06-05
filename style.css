@@ -1,0 +1,148 @@
+
+.container-fluid {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+  }
+
+  .comment-users {
+    display: flex;
+    padding-top: 1rem;
+  }
+
+  .users {
+    color: rgb(0, 145, 255);
+    font-weight: 700;
+  }
+  
+  .foto {
+    display: flex;
+    align-items: left;
+  }
+  
+  .dropdown {
+    padding-top: 1rem;
+  }
+
+  .foto img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  .caption {
+    padding-top: 1rem;
+  }
+
+  .image {
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .like-button {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+    margin-block: 1rem;
+  }
+  
+  .like-icon {
+    font-size: 16px;
+    margin-right: 5px;
+    padding-inline: 0.3rem;
+  }
+  
+  .like-count {
+    font-size: 14px;
+    padding-left: 5px;
+  }
+
+  .share-button {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .share-icon {
+    font-size: 16px;
+    margin-right: 5px;
+    padding-inline: 0.3rem;
+  }
+  
+  .share-count {
+    font-size: 14px;
+  }
+
+  .comment-count {
+    background-color:  rgb(235, 235, 235);
+    padding-left: 1rem;
+    padding-top: 1rem;
+  }
+
+  .comment-container-fluid {
+    background-color: rgb(235, 235, 235);
+  }
+  
+  .comment {
+    display: flex;
+    gap: 10px;
+    padding: 1rem;
+  }
+  
+  .comment-profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .comment-content {
+    flex: 1;
+    padding-left: 1rem;
+  }
+  
+  .comment-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .comment-author {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .comment-date {
+    font-size: 16px;
+    color: black; opacity: 50%;
+    font-weight: 400;
+  }
+  
+  .comment-text {
+    font-size: 14px;
+  }
+
+  .reply-button {
+    color: #337ab7;
+    background-color: rgb(235, 235, 235);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .report-button {
+    border: none;
+    background-color: rgb(235, 235, 235);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .btn-comment {
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+  }
